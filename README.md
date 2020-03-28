@@ -40,17 +40,12 @@ development in this field.
     - img[1-125].tif - 125 raw satellite images (size 1300x1300 px, 30cm per pixel). 
     - img[1-125].png - original .png images created from .tif files
     - img[1-40]_augmented.png - random brightness changes added to images
-    <p float="left">
-        <img src="https://make-sense.io/wp-content/uploads/2020/03/img10.png" width="40%" />
-        <img src="https://make-sense.io/wp-content/uploads/2020/03/img10_augmented.png" width="40%" />
-    </p>
+    <img src="https://user-images.githubusercontent.com/62398522/77831431-d215b780-7137-11ea-816c-98c3bda77b74.png" width="45%"></img> 
+    <img src="https://user-images.githubusercontent.com/62398522/77831432-d215b780-7137-11ea-9a9a-6341ff6fe7e7.png" width="45%"></img> 
     - img[41-80]_augmented.png - random noise added to all 3 channels
-    <p float="left">
-        <img src="https://make-sense.io/wp-content/uploads/2020/03/img41-e1585417814993.png" width="40%" />
-        <img src="https://make-sense.io/wp-content/uploads/2020/03/img41_augmented-e1585417859187.png" width="40%" />
-    </p>
+    <img src="https://user-images.githubusercontent.com/62398522/77831434-d2ae4e00-7137-11ea-9227-535e9f83f9a7.png" width="45%"></img> 
+    <img src="https://user-images.githubusercontent.com/62398522/77831435-d2ae4e00-7137-11ea-874b-4b146f468bb5.png" width="45%"></img> 
     - img[81-125]_augmented.png - random noise added on single channel
-    <p float="left">
-        <img src="https://make-sense.io/wp-content/uploads/2020/03/img82.png" width="40%" />
-        <img src="https://make-sense.io/wp-content/uploads/2020/03/img82_augmented.png" width="40%" />
-    </p>
+    <img src="https://user-images.githubusercontent.com/62398522/77831436-d346e480-7137-11ea-8f64-b5ec530e2513.png" width="45%"></img> 
+    <img src="https://user-images.githubusercontent.com/62398522/77831428-d17d2100-7137-11ea-98b0-985cdad591bd.png" width="45%"></img> 
+    
