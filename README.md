@@ -36,4 +36,21 @@ development in this field.
       ```
       Objects are described in WGS84 reference coordinate system.
 
-- Images directory - it contains 125 satellite images (size 1300x1300 px, 30cm per pixel). 
+- Images directory 
+    - img[1-125].tif - 125 raw satellite images (size 1300x1300 px, 30cm per pixel). 
+    - img[1-125].png - original .png images created from .tif files
+    - img[1-40]_augmented.png - random brightness changes added to images
+    <p float="left">
+        <img src="https://make-sense.io/wp-content/uploads/2020/03/img10.png" width="40%" />
+        <img src="https://make-sense.io/wp-content/uploads/2020/03/img10_augmented.png" width="40%" />
+    </p>
+    - img[41-80]_augmented.png - random noise added to all 3 channels
+    <p float="left">
+        <img src="https://make-sense.io/wp-content/uploads/2020/03/img41-e1585417814993.png" width="40%" />
+        <img src="https://make-sense.io/wp-content/uploads/2020/03/img41_augmented-e1585417859187.png" width="40%" />
+    </p>
+    - img[81-125]_augmented.png - random noise added on single channel
+    <p float="left">
+        <img src="https://make-sense.io/wp-content/uploads/2020/03/img82.png" width="40%" />
+        <img src="https://make-sense.io/wp-content/uploads/2020/03/img82_augmented.png" width="40%" />
+    </p>
