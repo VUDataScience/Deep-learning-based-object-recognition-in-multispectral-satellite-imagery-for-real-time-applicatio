@@ -49,3 +49,18 @@ development in this field.
     <img src="https://user-images.githubusercontent.com/62398522/77831436-d346e480-7137-11ea-8f64-b5ec530e2513.png" width="45%"></img> 
     <img src="https://user-images.githubusercontent.com/62398522/77831428-d17d2100-7137-11ea-98b0-985cdad591bd.png" width="45%"></img> 
     
+- References
+
+This data set was derived from SpaceNet 2, Building Detection v2:
+
+    - SpaceNet on Amazon Web Services (AWS). “SpaceNet 2, Building Detection v2” The SpaceNet Catalog. Last modified October 1st, 2018. Accessed on September 1st 2019. https://spacenet.ai/datasets/
+
+- License
+    - Data set is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a>
+
+- Citation Instructions
+
+If you are using data from this repository in a paper, please use the following citation:
+
+    - P. Gudžius, O. Kurasova, V. Darulis and E. Filatovas, "VUDataScience," 2020.
+    Available: https://github.com/VUDataScience/Deep-learning-based-object-recognition-in-multispectral-satellite-imagery-for-low-latency-applicatio.
