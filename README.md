@@ -1,5 +1,10 @@
 ## Deep learning based object recognition in multispectral satellite imagery for real-time applications
 
+In this repository we share an accurate and high-speed U-net architecture that is able to conduct a semantic segmentation operation for object recognition in multispectral satellite imagery. We utilize specific problem: “light-vehicle recognition in satellite imagery”. “Light-vehicle” object recognition requires the highest precision (due to a small object size of ~120 pixels only) as well as the model’s ability to generalize across dispersed scenes. The solution could be applicable to larger objects (e.g., aircrafts, trucks, ships, buildings) and generalizable across other satellite imagery datasets. We show that our U-net architecture exceeds human-level performance with state-of-the-art 97.67% accuracy over multiple sensors, it is able to generalize across dispersed scenery and outperforms other proposed methods to date. Its computationally light architecture delivers a fivefold improvement in training time and a rapid prediction, essential to real-time applications.
+
+Train_notebook.ipynb - contains jupyter notebook code for model training.
+make_image_coords.py - file for pre-processing image coordinates
+
 ### Dataset
 
 The dataset used in these experiments was created from an open-source raw satellite imagery database SpaceNet with
