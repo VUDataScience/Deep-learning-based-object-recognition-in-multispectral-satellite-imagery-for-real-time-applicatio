@@ -46,14 +46,15 @@ development in this field.
     - img[1-125].tif - 125 raw satellite images (size 1300x1300 px, 30cm per pixel). 
     - img[1-125].png - original .png images created from .tif files
     - img[1-40]_augmented.png - random brightness changes added to images
+    
     <img src="https://user-images.githubusercontent.com/62398522/77831431-d215b780-7137-11ea-816c-98c3bda77b74.png" width="45%"></img> 
     <img src="https://user-images.githubusercontent.com/62398522/77831432-d215b780-7137-11ea-9a9a-6341ff6fe7e7.png" width="45%"></img> 
     - img[41-80]_augmented.png - random noise added to all 3 channels
-
-
+    
     <img src="https://user-images.githubusercontent.com/62398522/77831434-d2ae4e00-7137-11ea-9227-535e9f83f9a7.png" width="45%"></img>
     <img src="https://user-images.githubusercontent.com/62398522/77831435-d2ae4e00-7137-11ea-874b-4b146f468bb5.png" width="45%"></img>
     - img[81-125]_augmented.png - random noise added on single channel
+    
     <img src="https://user-images.githubusercontent.com/62398522/77831436-d346e480-7137-11ea-8f64-b5ec530e2513.png" width="45%"></img>
     <img src="https://user-images.githubusercontent.com/62398522/77831428-d17d2100-7137-11ea-98b0-985cdad591bd.png" width="45%"></img>
     
