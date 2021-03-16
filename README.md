@@ -3,6 +3,7 @@
 In this repository we share an accurate and high-speed U-net architecture that is able to conduct a semantic segmentation operation for object recognition in multispectral satellite imagery. We utilize specific problem: “light-vehicle recognition in satellite imagery”. “Light-vehicle” object recognition requires the highest precision (due to a small object size of ~120 pixels only) as well as the model’s ability to generalize across dispersed scenes. The solution could be applicable to larger objects (e.g., aircrafts, trucks, ships, buildings) and generalizable across other satellite imagery datasets. We show that our U-net architecture exceeds human-level performance with state-of-the-art 97.67% accuracy over multiple sensors, it is able to generalize across dispersed scenery and outperforms other proposed methods to date. Its computationally light architecture delivers a fivefold improvement in training time and a rapid prediction, essential to real-time applications.
 
 Train_notebook.ipynb - contains jupyter notebook code for model training.
+
 make_image_coords.py - file for pre-processing image coordinates
 
 ### Dataset
@@ -48,11 +49,13 @@ development in this field.
     <img src="https://user-images.githubusercontent.com/62398522/77831431-d215b780-7137-11ea-816c-98c3bda77b74.png" width="45%"></img> 
     <img src="https://user-images.githubusercontent.com/62398522/77831432-d215b780-7137-11ea-9a9a-6341ff6fe7e7.png" width="45%"></img> 
     - img[41-80]_augmented.png - random noise added to all 3 channels
-    <img src="https://user-images.githubusercontent.com/62398522/77831434-d2ae4e00-7137-11ea-9227-535e9f83f9a7.png" width="45%"></img> 
-    <img src="https://user-images.githubusercontent.com/62398522/77831435-d2ae4e00-7137-11ea-874b-4b146f468bb5.png" width="45%"></img> 
+
+
+    <img src="https://user-images.githubusercontent.com/62398522/77831434-d2ae4e00-7137-11ea-9227-535e9f83f9a7.png" width="45%"></img>
+    <img src="https://user-images.githubusercontent.com/62398522/77831435-d2ae4e00-7137-11ea-874b-4b146f468bb5.png" width="45%"></img>
     - img[81-125]_augmented.png - random noise added on single channel
-    <img src="https://user-images.githubusercontent.com/62398522/77831436-d346e480-7137-11ea-8f64-b5ec530e2513.png" width="45%"></img> 
-    <img src="https://user-images.githubusercontent.com/62398522/77831428-d17d2100-7137-11ea-98b0-985cdad591bd.png" width="45%"></img> 
+    <img src="https://user-images.githubusercontent.com/62398522/77831436-d346e480-7137-11ea-8f64-b5ec530e2513.png" width="45%"></img>
+    <img src="https://user-images.githubusercontent.com/62398522/77831428-d17d2100-7137-11ea-98b0-985cdad591bd.png" width="45%"></img>
     
 - References
 
